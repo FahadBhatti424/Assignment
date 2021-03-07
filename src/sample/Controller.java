@@ -25,5 +25,4 @@ public class Controller {
         SpamProbability.setCellValueFactory(new PropertyValueFactory<>("spamProbability"));
         tabview1.setItems(DataSource.getAllFile());
     }
-
 }
